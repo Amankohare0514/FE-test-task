@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "./App.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAddressBook,
@@ -215,7 +216,7 @@ const App = () => {
   }, [page]);
 
   return (
-    <div className="app container mx-14 mt-8">
+    <div className=" mx-14 mt-8 bg-gray-50">
       <h1 className="text-3xl font-bold mb-4 text-center">Star Wars People</h1>
       <Search query={query} setQuery={setQuery} setPage={setPage} />
       <Cards data={data} />
