@@ -1,10 +1,10 @@
 # Getting Started with Create React App
 
 #Features
-Search: Easily search for Star Wars characters by name.
-Pagination: Navigate through the list of characters with the Previous and Next buttons.
-Data Statistics: Get insights into the total number of characters and counts for different species (Droids, Humans, and Others).
-Loading and Error Handling: Visual feedback for loading data and error messages in case of issues.
+-Search: Easily search for Star Wars characters by name.
+-Pagination: Navigate through the list of characters with the Previous and Next buttons.
+-Data Statistics: Get insights into the total number of characters and counts for different species (Droids, Humans, and Others).
+-Loading and Error Handling: Visual feedback for loading data and error messages in case of issues.
 
 
 ## Demo
