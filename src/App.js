@@ -215,7 +215,7 @@ const App = () => {
   }, [page]);
 
   return (
-    <div className="app container mx-12 mt-8">
+    <div className="app container mx-14 mt-8">
       <h1 className="text-3xl font-bold mb-4 text-center">Star Wars People</h1>
       <Search query={query} setQuery={setQuery} setPage={setPage} />
       <Cards data={data} />
